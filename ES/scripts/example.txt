@@ -3,7 +3,7 @@
 RubberDuck RightHand
 2 0 1 5 2 Lisa
 BaseballBat LeftHand
-2 0 1 0 5 Burns
+2 0 0 0 5 Burns
 Zombicillo 2 0
 ZombiLoco 1 4
 ZombiVaquero 4 3
