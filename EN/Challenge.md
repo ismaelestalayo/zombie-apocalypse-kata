@@ -130,7 +130,7 @@ N X Y
 RubberDuck RightHand    # Bart's item, I=RubberDuck equipped on S=Right Hand
 2 0 1 5 2 Lisa          # Survivor N=Lisa, V=2 life, Ex=0 experience, Eq=1 item equipped and is on coordinate (X=5, Y=2)
 BaseballBat LeftHand    # Lisa's item, I=BaseballBat equipped on S=left hand
-2 0 1 0 5 Burns         # Survivor N=Burns, V=5 life, Ex=0 experience, Eq=0 item equipped and is at coordinate (X=0, Y=5)
+2 0 0 0 5 Burns         # Survivor N=Burns, V=5 life, Ex=0 experience, Eq=0 item equipped and is at coordinate (X=0, Y=5)
 Zombicillo 2 0          # Zombie N=Zombie, is at the coordinate (X=2, Y=0)
 ZombiLoco 1 4           # Zombie N=ZombiLoco, is at coordinate (X=1, Y=4)
 ZombiVaquero 4 3        # Zombie N=ZombiVaquero, is at coordinate (X=4, Y=3)
