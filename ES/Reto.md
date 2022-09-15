@@ -126,7 +126,7 @@ N X Y
 
 #### Ejemplo de fichero de entrada
 ```
-3 1 3 6 1            	# S=3 supervivientes, Z=1 zombie, I=3 item, M=mapa de lado 6 y C=1 instrucciones
+3 3 3 6 1            	# S=3 supervivientes, Z=1 zombie, I=3 item, M=mapa de lado 6 y C=1 instrucciones
 2 0 1 0 1 Bart       	# Superviviente N=Bart, V=2 de vida, Ex=0 experiencia, Eq=1 items equipados y está en la coordenada (X=0, Y=1)
 RubberDuck RightHand 	# Item de Bart, I=RubberDuck equipado en S=mano derecha
 2 0 1 5 2 Lisa       	# Superviviente N=Lisa, V=2 de vida, Ex=0 experiencia, Eq=1 item equipados y está en la coordenada (X=5, Y=2)
