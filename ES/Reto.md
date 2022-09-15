@@ -131,7 +131,7 @@ N X Y
 RubberDuck RightHand 	# Item de Bart, I=RubberDuck equipado en S=mano derecha
 2 0 1 5 2 Lisa       	# Superviviente N=Lisa, V=2 de vida, Ex=0 experiencia, Eq=1 item equipados y está en la coordenada (X=5, Y=2)
 BaseballBat LeftHand 	# Item de Lisa, I=BaseballBat equipado en S=mano izquierda
-2 0 1 0 5 Burns       # Superviviente N=Burns, V=5 de vida, Ex=0 experiencia, Eq=0 item equipados y está en la coordenada (X=0, Y=5)
+2 0 0 0 5 Burns       # Superviviente N=Burns, V=5 de vida, Ex=0 experiencia, Eq=0 item equipados y está en la coordenada (X=0, Y=5)
 Zombicillo 2 0       	# Zombie N=Zombicillo, está en la coordenada (X=2, Y=0)
 ZombiLoco 1 4       	# Zombie N=ZombiLoco, está en la coordenada (X=1, Y=4)
 ZombiVaquero 4 3      # Zombie N=ZombiVaquero, está en la coordenada (X=4, Y=3)
