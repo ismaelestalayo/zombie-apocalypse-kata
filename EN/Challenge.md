@@ -125,7 +125,7 @@ N X Y
 
 #### Example of input file
 ```
-3 1 3 6 1               # S=3 survivors, Z=1 zombie, I=1 item, M=6-side map and C=2 instructions
+3 3 3 6 1               # S=3 survivors, Z=1 zombie, I=1 item, M=6-side map and C=2 instructions
 2 0 1 0 1 Bart          # Survivor N=Bart, V=2 life, Ex=0 experience, Eq=1 items equipped and is at coordinate (X=0, Y=1)
 RubberDuck RightHand    # Bart's item, I=RubberDuck equipped on S=Right Hand
 2 0 1 5 2 Lisa          # Survivor N=Lisa, V=2 life, Ex=0 experience, Eq=1 item equipped and is on coordinate (X=5, Y=2)
