@@ -186,7 +186,7 @@ A Lisa Zombicillo BaseballBat 1
 
 ```
 # Log:
-2 0 1 3 2     
+2 0 1 3 1     
 2 0 0 0 1 Bart 
 Knife Backpack
 2 0 1 0 0 Lisa
