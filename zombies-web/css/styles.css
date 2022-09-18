@@ -1,0 +1,71 @@
+.scenario-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.scenario-tile {
+    height: 80px;
+    width: 80px;
+    background-image: url(../assets/tile.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.scenario-element {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-size:cover;
+    background-position:center;
+}
+
+.type_zombie {
+    background-image: url(../assets/zombie.png);
+}
+
+.type_survivor {
+    background-image: url(../assets/survivor.png);
+}
+
+.type_bat {
+    background-image: url(../assets/baseball-bat.png);
+}
+
+.type_duck {
+    background-image: url(../assets/rubber-duck.png);
+}
+
+.type_katana {
+    background-image: url(../assets/katana.png);
+}
+
+.type_knife {
+    background-image: url(../assets/knife.png);
+}
+
+.type_handgun {
+    background-image: url(../assets/handgun.png);
+}
+
+.type_molotov {
+    background-image: url(../assets/molotov.png);
+}
+
+.type_flame {
+    background-image: url(../assets/flamethrower.png);
+}
+
+.type_machete {
+    background-image: url(../assets/machete.png);
+}
+
+.type_bow {
+    background-image: url(../assets/bow.png);
+}
+

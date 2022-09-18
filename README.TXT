@@ -1,0 +1,1 @@
+python3 -i zombies.py ES/scripts/example.txt
