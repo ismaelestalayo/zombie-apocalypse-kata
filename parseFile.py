@@ -20,11 +20,17 @@ class Player():
         self.name = name
         self.coords = coords
     
+    def __repr__(self):
+        return str(self.toArray()).replace("'", '"')
+    
+    def toArray(self):
+        return [type(self).__name__.lower(), self.coords.x, self.coords.y]
 
 
 class Zombie(Player):
     def __init__(self, name, coords):
-        super().__init__(name, coords)
+        super().__init__(name, coords)   
+    
 
 
 class Survivor(Player):
@@ -48,6 +54,12 @@ class SceneItem():
     def __init__(self, name, coords):
         self.name = name
         self.coords = coords
+    
+    def __repr__(self):
+        return str(self.toArray()).replace("'", '"')
+    
+    def toArray(self):
+        return [self.name.lower(), self.coords.x, self.coords.y]
 
 
 class State():
@@ -172,7 +184,6 @@ def readZombies(lines, numZombies, startLine):
             coords=Coord(int(x), int(y))
         )
         zombies += [zombie]
-        print("ZOMBIE: ", zombie)
     return zombies
 
 

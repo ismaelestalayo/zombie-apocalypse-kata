@@ -1,6 +1,10 @@
 from parseFile import *
 
 
+import os
+import webbrowser
+
+
 lines = read_file(INPUT_FILE)
 numSurvivors, numZombies, numSceneItems, sceneSize, numInstructions = readMetadata(lines)
 survivors = readSurvivors(lines, numSurvivors)
@@ -40,22 +44,22 @@ def playTurn(instruction, currentState):
 
 
 
-"""
-file:///Users/jorgefuentelasala/Desktop/zombies/zombies.html?scenario=8&elements=%5B%5B%22zombie%22%2C0%2C0%5D%2C%5B%22survivor%22%2C2%2C3%5D%2C%5B%22machete%22%2C4%2C5%5D%5D
-"""
 
+
+elements = [z for z in zombies] + [s for s in survivors] + [i for i in sceneItems]
+elements = str(elements).replace(" ", "")
+
+FILE = os.path.abspath("zombies-web/zombies.html")
+URL = f"file:///{FILE}?scenario={sceneSize}&elements={elements}"
+
+
+# TODO: animate instructions
 for instruction in instructions:
     if (type(instruction) == Move):
         print()
 
 
 
-def parseURL(states):
-    queryString = f"zombies.html?scenario={sceneSize}&"
-    
-    # elements=zombie%2C0%2C0%5D%2Csurvivor%2C2%2C3%5D%2Cmachete%2C4%2C5%5D%5D"
-    for state in states:
-        queryString += "elements=zombie"
-        for zombie in state.zombies:
-            return ""
-    return ""
+print("> Copy and paste this URL in the browser: ")
+print("> (webbrowser library has problems opening a local website with query parammeters): \n")
+print(URL + "\n\n")
